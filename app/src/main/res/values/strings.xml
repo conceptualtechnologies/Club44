@@ -1,0 +1,634 @@
+<resources>
+    <string name="app_name">Restuarant</string>
+    <!--Common-->
+    <string name="back">BACK</string>
+    <string name="_continue">Continue</string>
+    <string name="must_login">You must logged in!</string>
+    <string name="empty_text">Result will be appear here.</string>
+    <string name="select_minimum_1">Minimum order amount for </string>
+    <string name="select_minimum_2"> is </string>
+    <string name="enjoy_shopping">Enjoy Shopping</string>
+    <string name="subtotal_title">Sub Total</string>
+    <string name="checkout">CheckOut</string>
+    <string name="specification">Specification</string>
+    <string name="facebook_app_id">1745763235731134</string>
+    <string name="fb_login_protocol_scheme">fb1745763235731134</string>
+    <string name="payu1">Checkout Ammount : </string>
+
+    <string name="payu2">Pay</string>
+    <string-array name="signup">
+        <item>..Select User Type..</item>
+        <item>Vendor</item>
+        <item>User/Customer</item>
+    </string-array>
+
+    <string name="connect_to_internet">Please connect to the internet before continuing</string>
+
+    <string name="payu3">Specification</string>
+
+    <!--Error-->
+    <string name="failure">Some Field missing</string>
+    <string-array name="login">
+        <item>Vendor</item>
+        <item>User</item>
+    </string-array>
+    <!--Cart-->
+    <string name="add_to_cart_success">Product successfully added.</string>
+
+    <!--Home Lists-->
+    <string name="featured">Featured</string>
+    <string name="latest">New Arrivals</string>
+    <string name="special">Special</string>
+    <string name="view_all">View all</string>
+
+    <!--Home Slider-->
+    <string name="yet_to_build">Yet to build.</string>
+
+    <!--Filter-->
+    <string name="filter">Filter</string>
+    <string name="filter_cancel">Cancel</string>
+
+    <!--ImageView Content Provider-->
+    <string name="image">Image</string>
+
+    <!--Search bar-->
+    <string name="search_pre_text">Whats on your mind!</string>
+
+    <!--Network check-->
+    <string name="please_check_your_internet_connection">Please check the connection !!</string>
+    <string name="no_connection">No Internet connection</string>
+    <string name="error">Sorry,Something went wrong!!</string>
+    <string name="network_slow">Bad network</string>
+    <string name="try_again">Check your connection.Try again!</string>
+
+    <!--Navigation drawer-->
+    <string name="categories">CATEGORIES</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">close</string>
+
+    <!--Category activity-->
+    <string name="sort_category">Category</string>
+
+    <!--Product sorting order-->
+    <string name="sorting">Sorting</string>
+    <string name="sort_default">Default</string>
+    <string name="sort_name_AZ">Name ( A - Z )</string>
+    <string name="sort_name_ZA">Name ( Z - A )</string>
+    <string name="sort_price_LH">Price ( Low > High )</string>
+    <string name="sort_price_HL">Price ( High > Low )</string>
+    <string name="sort_rating_H">Rating ( Highest )</string>
+    <string name="sort_rating_L">Rating ( Lowest )</string>
+    <string name="sort_model_AZ">Model ( A - Z )</string>
+    <string name="sort_model_ZA">Model ( Z - A )</string>
+
+    <!--Product Titles-->
+    <string name="price_title">Price</string>
+    <string name="special_price_title">Special Price</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="color">Color</string>
+    <string name="quantity">Quantity</string>
+    <string name="and"> , </string>
+    <string name="please_select">Please select </string>
+    <string name="quantity_check_1">Minimum order amount for </string>
+    <string name="quantity_check_3">Maximum order amount for </string>
+    <string name="quantity_check_2"> is </string>
+    <string name="manufacture">Manufacture</string>
+    <string name="stock_status">Stock status</string>
+    <string name="there_is_no_review_for_this_product">There are no reviews for this product.</string>
+
+    <!--Menu-->
+    <string name="menu_login">Login</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_register">Register</string>
+    <string name="menu_wish_list">Wish List</string>
+    <string name="menu_my_booking">Book Tables</string>
+    <string name="menu_my_order">My order</string>
+    <string name="menu_events">My events</string>
+    <string name="menu_name">T</string>
+    <string name="menu_cart">Cart</string>
+
+    <!--Review Writing-->
+    <string name="post">Post</string>
+    <string name="write_rating">Write review</string>
+    <string name="review">Review</string>
+    <string name="rating">Rating</string>
+    <string name="rating_value">(1 "en dash" 5)</string>
+    <string name="enter_name">Please enter the name</string>
+    <string name="enter_name_length">Please enter the name with 3 to 25 characters!</string>
+    <string name="enter_command">Please rate and review</string>
+    <string name="enter_command_length">Please enter the review more than 25 to 100 characters!</string>
+    <string name="enter_rating">Please enter the rating</string>
+    <string name="enter_rating_value">Please enter the rating between 1 to 5</string>
+    <string name="success">Review successfully posted</string>
+    <string name="reviews">reviews</string>
+    <string name="button_cancel">Cancel</string>
+
+    <!--Forget password-->
+    <string name="sentence_for_get_email">Enter your Phone No. here to receive a Code.</string>
+    <string name="send_email">SEND EMAIL</string>
+    <string name="forgot_password_title">Forgot password</string>
+
+    <!--WishList-->
+    <string name="wish_list_success">Successfully added.</string>
+    <string name="wish_list_removed">Successfully removed.</string>
+
+    <!--User-->
+    <string name="title_login">LOGIN</string>
+    <string name="register">Register</string>
+    <string name="show_password">Show Password</string>
+    <string name="forgotten_password_link">Forgotten Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_have_ac_login_here">If you have an account, Click here!</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="telephone">Telephone</string>
+    <string name="fax">Fax</string>
+    <string name="company">Company</string>
+    <string name="address_1">Address 1</string>
+    <string name="address_2">Address 2</string>
+    <string name="city">  City</string>
+    <string name="post_code">Post Code</string>
+    <string name="country">Country</string>
+    <string name="region_or_state">Region / State</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="i_have_agree_privacy_policy">I have read and agree to the Privacy Policy</string>
+    <string name="submit">Submit</string>
+    <string name="login_success">Login Successful</string>
+
+    <!--User success and error-->
+    <string name="please_enter_valid_email">Please enter a valid email id</string>
+    <string name="please_enter_your_email_id">Please enter your email id</string>
+    <string name="please_enter_your_pwd">Please enter your password</string>
+    <string name="no_account_found_for_email">No account found with that email address.Please try again.</string>
+    <string name="login_failed">Login failed.Invalid email id / password</string>
+    <string name="reg_error">Register failed!</string>
+    <string name="reg_error_first_name">First Name must be between 1 and 32 characters!</string>
+    <string name="reg_error_last_name">Last Name must be between 1 and 32 characters!</string>
+    <string name="reg_error_email1">E-Mail Address does not appear to be valid!</string>
+    <string name="reg_error_email2">Enter valid E-Mail Address!</string>
+    <string name="reg_error_telephone">Telephone must be between 3 and 32 characters!</string>
+    <string name="reg_error_address1">Address 1 must be between 3 and 128 characters!</string>
+    <string name="reg_error_city">City must be between 2 and 128 characters!</string>
+    <string name="reg_error_postcode">Post Code must be between 2 and 10 characters!</string>
+    <string name="reg_error_country">Please select a country!</string>
+    <string name="reg_error_region_state">Please select a region/state!</string>
+    <string name="reg_error_pwd">Password must be between 5 and 20 characters!</string>
+    <string name="reg_error_confirm_pwd">Password Confirmation does not match Password!</string>
+    <string name="reg_error_privacy_police">You must agree to the privacy policy!</string>
+    <string name="registration_successful">Registration Successful !</string>
+    <string name="registration_successful_sign_up">Registration Successful</string>
+
+    <!--User hint-->
+    <string name="password_star_symbol">************</string>
+    <string name="enter_email_id_and_pwd">Enter email id and password</string>
+    <string name="your_personal_details">Your Personal Details</string>
+    <string name="your_address">Your Address</string>
+    <string name="your_password">Your Password</string>
+    <string name="news_letter">Newsletter</string>
+    <string name="e_mail_address">E-Mail Address</string>
+
+    <!--Checkout data-->
+    <string name="delivery_shipment_info">Shipment Info</string>
+    <string name="delivery_billing_info">Billing Info</string>
+    <string name="delivery_phone_number">Phone number</string>
+    <string name="delivery_street_address">Street address</string>
+    <string name="delivery_state">State</string>
+    <string name="delivery_zip_code">Zip Code</string>
+    <string name="payment_type">Payment type</string>
+    <string name="shipping_type">Delivery type</string>
+    <string name="shipping_address">Delivery address</string>
+    <string name="change_address">Change address</string>
+    <string name="change_order">Change order</string>
+    <string name="place_order">Place Order</string>
+    <string name="return_to_home">Continue shopping</string>
+    <string name="checkout_bar_delivery_and_billing_detail">Delivery detail</string>
+    <string name="checkout_bar_delivery_method">Delivery method</string>
+    <string name="checkout_bar_payment_method">Payment method</string>
+    <string name="checkout_bar_confirmation">Confirm order</string>
+
+    <!--Order success-->
+    <string name="order_success">Your order has been successfully processed.
+You can view your order history by going to the my account page and by clicking on history.
+If your purchase has an associated download, you can go to the account downloads page to view them.
+Please direct any questions you have to the store owner.
+Thanks for shopping with us online!</string>
+    <string name="order_success_placed">YOUR ORDER SUCCESSFULLY PLACED!</string>
+    <string name="order_success_processed">Your order has been successfully processed!</string>
+    <string name="edit_address">Edit Address</string>
+    <string name="address">Address</string>
+
+    <!--My account-->
+    <string name="menu_account">My Account</string>
+    <string name="menu_order">My Orders</string>
+    <string name="menu_edit_ac">Edit Account</string>
+    <string name="menu_change_pwd">Change Password</string>
+    <string name="menu_modify_adds">Modify Address</string>
+    <string name="menu_order_history">Order History</string>
+    <string name="menu_product_returns">Product Returns</string>
+    <string name="menu_transactions">Transactions</string>
+    <string name="menu_reward_points">Reward Points</string>
+    <string name="menu_my_wish_list">My Wish List</string>
+    <string name="tv_return_id">Return ID</string>
+    <string name="tv_Status">Status</string>
+    <string name="tv_order_date">Order Date</string>
+    <string name="tv_reason">Reason</string>
+    <string name="tv_opened">Opened</string>
+    <string name="tv_action">Action</string>
+    <string name="tv_return_comments">Return Comments</string>
+    <string name="tv_description">Description</string>
+    <string name="tv_points">Points</string>
+    <string name="tv_amt_usd">Amt(USD)</string>
+    <string name="tv_address">Address</string>
+    <string name="default_adds">Default Address</string>
+    <string name="my_account_detail">MY ACCOUNT</string>
+    <string name="search">Search</string>
+    <string name="my_account_date_added">Date Added Data</string>
+    <string name="my_account_amt_used">Amt(usd) Data</string>
+    <string name="new_address">New Address</string>
+    <string name="icon_edit">Edit</string>
+    <string name="icon_delete">Delete</string>
+    <string name="my_account_info_page">MY ACCOUNT INFORMATION</string>
+    <string name="change_password_page">CHANGE PASSWORD</string>
+    <string name="address_book_page">ADDRESS BOOK</string>
+    <string name="order_history_page">ORDER HISTORY</string>
+    <string name="reward_points_page">YOUR REWARD POINTS</string>
+    <string name="product_returns_page">PRODUCT RETURNS</string>
+    <string name="your_transactions_page">YOUR TRANSACTIONS</string>
+    <string name="newsletter_subscription_page">NEWSLETTER SUBSCRIPTION</string>
+    <string name="my_wish_list_page">MY WISH LIST</string>
+    <string name="order_information_page">ORDER INFORMATION</string>
+    <string name="product_returns_info_page">PRODUCT INFORMATION</string>
+    <string name="return_information_page_title1">RETURN INFORMATION</string>
+    <string name="product_info_and_return_reason_title_2">PRODUCT INFORMATION AND REASON FOR RETURN</string>
+    <string name="current_balance_is">Your current balance is: $</string>
+    <string name="transaction_current_default_amt">0.00</string>
+    <string name="u_have_not_previous_order">You have not made any previous orders!</string>
+    <string name="u_have_not_previous_returns">You have not made any previous returns!</string>
+    <string name="total_no_reward_points">Your total number of reward Points is:</string>
+    <string name="reward_points_default_amt">0</string>
+    <string name="your_wish_list_is_empty">Your wish list is empty.</string>
+    <string name="date_added">Date Added</string>
+    <string name="description">Description</string>
+    <string name="amount">Amount(USD)</string>
+    <string name="please_complete_to_request_rma_number">Please complete the form below to request an RMA number.</string>
+    <string name="order_information">Order Information</string>
+    <string name="order_id">Order ID</string>
+    <string name="order_date">Order Date</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_code">Product Code</string>
+    <string name="reason_for_return">Reason for Return</string>
+    <string name="dead_on_arrival">Dead On Arrival</string>
+    <string name="faulty_please_supply_details">Faulty, please supply details</string>
+    <string name="order_error">Order Error</string>
+    <string name="other_please_supply_details">Other, please supply details</string>
+    <string name="received_wrong_item">Received Wrong item</string>
+    <string name="product_is_opened">Product is opened</string>
+    <string name="faulty_or_other_details">Faulty or other details</string>
+    <string name="product_info_and_return_reason">Product Information And Reason For Return</string>
+    <string name="btn_continue">CONTINUE</string>
+    <string name="btn_view">View</string>
+    <string name="tv_order_id">Order ID</string>
+    <string name="tv_date_added">Date Added</string>
+    <string name="tv_order_status">Order Status</string>
+    <string name="tv_no_of_products">No.Of Products</string>
+    <string name="tv_customer">Customer</string>
+    <string name="tv_total">Total</string>
+    <string name="tv_order_details">Order Details</string>
+    <string name="tv_pay_method">Payment Method</string>
+    <string name="tv_ship_method">Shipping Method</string>
+    <string name="tv_pay_adds">Payment Address</string>
+    <string name="tv_ship_adds">Shipping Address</string>
+    <string name="tv_product_name">Product Name</string>
+    <string name="tv_model">Model</string>
+    <string name="tv_quantity">Quantity</string>
+    <string name="tv_price">Price</string>
+    <string name="tv_subtotal">Sub-Total</string>
+    <string name="tv_free_ship">Free Shipping</string>
+    <string name="tv_flat_ship_rate">Flat Shipping Rate</string>
+    <string name="tv_order_his">Order History</string>
+    <string name="tv_comment">Comment</string>
+    <string name="tv_order_comments">Order Comments</string>
+    <string name="tv_color">Color</string>
+    <string name="tv_size">Size</string>
+    <string name="reg_error_fax">Please enter the fax details!</string>
+    <string name="oh_pr_error_order_id_required">Order ID required!</string>
+    <string name="oh_pr_error_product_name">Product Name must be greater than 3 and less than 255 characters!</string>
+    <string name="oh_pr_error_product_model">Product Model must be greater than 3 and less than 64 characters!</string>
+    <string name="Open_cart_Online_Shopping">Open cart</string>
+    <string name="adds_successfully_deleted">Your address has been successfully deleted.</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="account_edit_success">Your account has been successfully updated.</string>
+    <string name="already_in_your_account">This is your account listing.</string>
+    <string name="fill_required_field">Please fill the require fields !</string>
+    <string name="address_update">Your address has been successfully updated.</string>
+    <string name="address_warning">Warning: You must have at least one address!</string>
+    <string name="default_address_warning">Cannot delete your default address!</string>
+    <string name="change_password_success">Password successfully changed.</string>
+    <string name="empty_order_history">You have not made any previous orders!</string>
+
+    <!--Checkout address edit-->
+    <string name="enter_first_name">Please enter your first name</string>
+    <string name="enter_first_name_length">Please enter your first name with in 1 to 32 characters</string>
+    <string name="enter_last_name">Please enter your last name</string>
+    <string name="enter_last_name_length">Please enter your last name with in 1 to 32 characters</string>
+    <string name="enter_phone_number">Please enter your phone number</string>
+    <string name="enter_phone_number_length">Please enter your phone number with in 3 to 32 characters</string>
+    <string name="enter_company">Please enter your company</string>
+    <string name="enter_address">Please enter your address</string>
+    <string name="enter_address_length">Please enter your address with in 3 to 128 characters</string>
+    <string name="enter_city">Please enter your city</string>
+    <string name="enter_country">Please enter your country</string>
+    <string name="enter_state">Please enter your state</string>
+    <string name="enter_zip_code">Please enter your zip_code</string>
+    <string name="enter_zip_code_length">Please enter your zip_code with in 1 to 32 characters</string>
+    <string name="success_address">Address has been updated.</string>
+
+    <!--Recycler Empty view-->
+    <string name="empty_wish_list">Your wish list is empty.</string>
+    <string name="empty_cart">Your shopping cart is empty!</string>
+    <string name="empty_filter">Filter is not available!</string>
+    <string name="empty_category">Category is empty.</string>
+
+    <!--Product specification-->
+    <string name="detail_specification">Detail</string>
+    <string name="description_specification">Description</string>
+    <string name="reviews_specification">Reviews</string>
+
+    <!--Copy rights-->
+    <string name="copy_rights">Copyrights By TastyTownFood © </string>
+
+    <!--Country & language change-->
+    <string name="change_country">Country</string>
+    <string name="change_language">Language</string>
+    <string name="english">English</string>
+    <string name="arabic">Arabic</string>
+
+    <!--Product quantity error message-->
+    <string name="quantity_error_message">Product not available in the desired quantity or not in stock!</string>
+    <string name="title_activity_payu">PayUMoney Checkout</string>
+    <string name="title_activity_payment_success">paymentSuccess</string>
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">TimePickerDialogDemo</string>
+    <string name="str_btn_label">Set Time !!!</string>
+
+
+    <string-array name="tableguests">
+        <item> guests 1</item>
+        <item> guests 2</item>
+        <item> guests 3</item>
+        <item> guests 4</item>
+        <item>guests 5  </item>
+        <item> guests 6</item>
+
+    </string-array>
+
+    <string-array name="totime">
+        <item> TO... </item>
+        <item> 11 PM</item>
+        <item> 12 Pm</item>
+        <item> 1 Pm</item>
+        <item> 2 Pm</item>
+        <item>3 Pm  </item>
+        <item> 4 Pm</item>
+
+    </string-array>
+
+
+    <string-array name="fromtime">
+        <item> FROM... </item>
+        <item> 12 PM</item>
+        <item> 1 Pm</item>
+        <item> 2 Pm</item>
+        <item> 3 Pm</item>
+        <item>4 Pm  </item>
+        <item> 5 Pm</item>
+
+    </string-array>
+
+
+    <string-array name="tablenumber">
+        <item>    tableno.1</item>
+        <item>    tableno.2</item>
+        <item>     tableno.3</item>
+        <item>    tableno.4</item>
+        <item>     tableno.5  </item>
+        <item>    tableno.6</item>
+
+    </string-array>
+
+
+    <string-array name="occation">
+
+        <item>  BIRTHDAY PARTY</item>
+        <item>  WEDDING CEAREMONY</item>
+        <item>  OTHERS</item>
+    </string-array>
+
+
+    <string name="action_settings">Settings</string>
+
+    <string name="str_btn_find">Find</string>
+
+    <string-array name="place_type">
+        <item>airport</item>
+        <item>atm</item>
+        <item>bank</item>
+        <item>bus_station</item>
+        <item>church</item>
+        <item>doctor</item>
+        <item>hospital</item>
+        <item>mosque</item>
+        <item>movie_theater</item>
+        <item>hindu_temple</item>
+        <item>restaurant</item>
+    </string-array>
+
+    <string-array name="place_type_name">
+        <item>Airport</item>
+        <item>ATM</item>
+        <item>Bank</item>
+        <item>Bus Station</item>
+        <item>Church</item>
+        <item>Doctor</item>
+        <item>Hospital</item>
+        <item>Mosque</item>
+        <item>Movie Theater</item>
+        <item>Hindu Temple</item>
+        <item>Restaurant</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_myresturant">Myresturant</string>
+    <string name="action_setting">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+    <string name="Terms">
+        "Please read the terms and conditions (\"Terms and Conditions\") set out below carefully before ordering any Goods or Services from this Website. By ordering any Goods or Services from this Website, by phone, or by our mobile applications you agree to be bound by these Terms and Conditions.\n"
+                " \n"
+                "Section 1: Introduction We are resturant, a brand of http://www.resturant.in, unless otherwise stated.\n"
+                "Section 2: Definitions\n"
+                "2.1. \"Agreement\" is a reference to these Terms and Conditions, the Privacy Policy, any order form and payment instructions provided to you;\n"
+                "2.2. \"Privacy Policy\" means the policy displayed on our Website which details how we collect and store your personal data;\n"
+                "2.3. \"you\", \"your\" and \"yours\" are references to you the person accessing this Website and ordering any Goods or Services from the Website or from any other channel provided by foodpanda;\n"
+                "2.4. \"we\", \"us\", \"our\", and \"foodpanda\" are references to the Company;\n"
+                "2.5. \"Goods\" is a reference to any goods which we may offer for sale from our Website from time to time;\n"
+                "2.6. \"Service\" or \"Services\" is a reference to any service which we may supply and which you may request via our Website;\n"
+                "2.7. \"Participating Restaurant\" is a third party, which has agreed to co-operate with the Company to prepare and/or deliver the Goods or Services.\n"
+                "2.8. \"Food Delivery\" is a reference to perishable goods and to any form of delivery service, which both are provided by our Participating Restaurants and for both of which our Participating Restaurants take full responsibility; and\n"
+                "2.9. \"Website\" is a reference to our Website http://www.foodpanda.in or our mobile applications on which we offer our Goods or Services.\n"
+                "Section 3: Ordering\n"
+                "3.1. Any contract for the supply of Food Delivery from this Website is between you and the Participating Restaurant; for the supply of Goods or Services from this Website any contact is between you and foodpanda. You agree to take particular care when providing us with your details and warrant that these details are accurate and complete at the time of ordering. You also warrant that the credit or debit card details that you provide are for your own credit or debit card and that you have sufficient funds to make the payment.\n"
+                "3.2. Food Delivery, Goods and Services purchased from this Website are intended for your use only and you warrant that any Goods purchased by you are not for resale and that you are acting as principal only and not as agent for another party when receiving the Services.\n"
+                "3.3. Please note that some of our Goods may be suitable for certain age ranges only. You should check that the product you are ordering is suitable for the intended recipient.\n"
+                "3.4. When ordering from this Website you may be required to provide an e-mail address and password. You must ensure that you keep the combination of these details secure and do not provide this information to a third party.\n"
+                "3.5. We will take all reasonable care, in so far as it is in our power to do so, to keep the details of your order and payment secure, but in the absence of negligence on our part we cannot be held liable for any loss you may suffer if a third party procures unauthorized access to any data you provide when accessing or ordering from the Website.\n"
+                "3.6. Any order that you place with us is subject to product availability, delivery capacity and acceptance by us and the Participating Restaurant. When you place your order online, we will send you an email to confirm that we have received it. This email confirmation will be produced automatically so that you have confirmation of your order details. You must inform us immediately if any details are incorrect. The fact that you receive an automatic confirmation does not necessarily mean that either we or the Participating Restaurant will be able to fill your order. Once we have sent the confirmation email we will check availability and delivery capacity.\n"
+                "3.7. If the ordered Food Delivery and delivery capacity is available, the Participating Restaurant will accept the contract and confirm it to foodpanda. If the details of the order are correct, the contract for the Food Delivery, Goods or Services will be confirmed by text message (SMS).\n"
+                "3.8. In the case that Goods offered by foodpanda were ordered, foodpanda will confirm availability together with or separately from Food Delivery.\n"
+                "3.9. The confirmation message will specify delivery details including the approximate delivery time specified by the Participating Restaurant and confirm the price of the Food Delivery, Goods and Services ordered.\n"
+                "3.10. If the Food Delivery and/or Goods are not available or if there is no delivery capacity, we will also let you know by text message (SMS) or phone call.\n"
+                "Section 4: Prices and Payment\n"
+                "4.1. Any contract for the supply of Food Delivery from this Website is between you and the Participating Restaurant; for the supply of Goods or Services from this Website any contact is between you and foodpanda. You agree to take particular care when providing us with your details and warrant that these details are accurate and complete at the time of ordering. You also warrant that the credit or debit card details that you provide are for your own credit or debit card and that you have sufficient funds to make the payment.\n"
+                "4.2. All prices listed on the Website are correct at the time of publication and have been input as received by the restaurant;  While we give great care to keep them up to date, the final price charged to you by the restaurant can change at the time of delivery based on the latest menu and prices of the restaurant. We also reserve the right to alter the Goods or Services available for sale on the Website and to stop listing restaurants, Goods or Services.\n"
+                "4.3. All prices listed on the Website for Food Delivery by the Participating Restaurant reflect the price the Participating Restaurant charges at the time of listing. In case the price listed is not current and the restaurant informs us immediately after placing the order, we will put our best effort to contact you to inform you about the price difference and you can choose to opt-out of the order at that time.\n"
+                "4.4. All prices for delivery by foodpanda or a third party provider assigned by foodpanda listed on the Website are correct at the time of publication, however, we reserve the right to alter these in the future\n"
+                "4.5. The total price for Food Delivery, Goods or Services ordered, including delivery charges and other charges, will be displayed on the Website when you place your order. Full payment must be made for all Goods despatched and Services provided. Payment has to be made in cash or, if available on the website, by online payment, e.g. credit or debit card.\n"
+                "4.6. If you choose online payment, you must pay for your order before it is delivered. To ensure that shopping online is secure, your debit/credit card details will be encrypted to prevent the possibility of someone being able to read them as they are sent over the internet. Your credit card company may also conduct security checks to confirm it is you placing the order.\n"
+                "4.7. The prices reflected on the website/mobile application/email are determined solely by the Participating Restaurant and informed to Foodpanda at the time of listing or afterwards. Any change in the prices of menu at the time of placing order is at the sole discretion of the Participating restaurant.\n"
+                "4.8. All applicable taxes and levies, the rates thereof and the manner of applicability of such taxes are being charged and determined by the Participating Restaurant and Foodpanda is merely collecting the same on behalf of such Participating Restaurant.\n"
+                "4.9. The entire amount of applicable taxes collected by Foodpanda is directly remitted as it is to Participating Restaurants and Foodpanda does not retain any amounts thereof\n"
+                "4.10. Foodpanda is not responsible for validating the legal sanctity of the applicable taxes and the manner of its applicability on behalf of the Participating Restaurant. Foodpanda holds no responsibility for the legal correctness/validity of the levy of such taxes. The sole responsibility for any legal issue arising on the taxes shall reside with the Participating Restaurant.\n"
+                "4.11. The prices reflected on the website/mobile application are determined solely by the Participating Restaurant and informed to Foodpanda at the time of listing. Any change in the prices of menu at the time of placing order is at the sole discretion of the Participating restaurant.\n"
+                "4.12. The transaction of sale of food or food items is between Participating Restaurant and the customer, and accordingly, Foodpanda is not liable to charge or deposit any taxes applicable on such transaction\n"
+                "4.13. The final tax invoice will be issued by the Participating Restaurant and delivered to the customer along with the order\n"
+                "Section 5: Delivery\n"
+                "5.1. Delivery periods quoted at the time of ordering are approximate only and may vary. Goods will be delivered to the address designated by you at the time of ordering.\n"
+                "5.2. If delivery is done by the Participating Restaurant, it is the Participating Restaurants sole responsibility to provide Food Delivery in a timely manner.\n"
+                "5.3. In the case delivery is done by foodpanda, we will give great care to deliver in a timely manner. No responsibility is taken for late delivery by foodpanda in either case.\n"
+                "5.4. All orders are delivered by a reputable courier. We and the Participating Restaurant will make every effort to deliver within the time stated, however, we will not be liable for any loss caused to you by ordering late. If the Goods are not delivered within the estimated delivery time quoted by us, please contact the participating restaurant first. You may also contact us by telephone or email and we will try to ensure that you receive your order as quickly as possible.\n"
+                "5.5. In case of a late delivery, the delivery charge will neither be voided nor refunded by foodpanda.\n"
+                "5.6. All risk in the Goods and the Food Delivery shall pass to you upon delivery.\n"
+                "5.7. If you fail to accept delivery of Food Delivery and/or Goods at the time they are ready for delivery, or we are unable to deliver at the nominated time due to your failure to provide appropriate instructions, or authorizations, then such goods shall be deemed to have been delivered to you and all risk and responsibility in relation to such goods shall pass to you. Any storage, insurance and other costs which we incur as a result of the inability to deliver shall be your responsibility and you shall indemnify us in full for such cost.\n"
+                "5.8. You must ensure that at the time of delivery of Food Delivery and/or Goods adequate arrangements, including access where necessary, are in place for the safe delivery of such goods. We cannot be held liable for any damage, cost or expense incurred to such goods or premises where this arises as a result of a failure to provide adequate access or arrangements for delivery.\n"
+                "5.9. Participating restaurants, who will prepare your order, aim\n"
+                "5.9.1. to deliver the product to you at the place of delivery requested by you in your order;\n"
+                "5.9.2. to deliver within the time confirmed by the restaurant;\n"
+                "5.9.3. to inform you if they expect that they are unable to meet the estimated delivery time.\n"
+                "5.10. Participating Restaurants and we shall not be liable to you for any losses, liabilities, costs, damages, charges or expenses arising out of late delivery;\n"
+                "5.11. Please note that it might not be possible for Participating Restaurants to deliver to some locations. If this is the case, our Participating Restaurants or we will inform you using the contact details that you provide to us when you make your order and arrange for cancellation of the order or delivery to an alternative delivery address;\n"
+                "Section 6: Cancellation\n"
+                "6.1. You must notify the participating restaurant immediately if you decide to cancel your order, preferably by phone, and quote your order number. If the restaurant accepts your cancellation, no cancellation fee applies. If the restaurant refuses cancellation, e.g. because preparation of Food Delivery has been completed and/or delivery personnel has already been dispatched, it may not be cancelled. We will not be able to refund any order, which has been already dispatched.\n"
+                "6.2. We may cancel a contract if the product is not available for any reason. We will notify you if this is the case and return any payment that you have made;\n"
+                "6.3. If the cancellation was made in time and once the restaurant has accepted your cancellation, we will refund or re-credit your debit or credit card with the full amount within 14 days, which includes the initial delivery charge (where applicable) which you paid for the delivery of the Goods or the Services, as applicable.\n"
+                "6.4. In the unlikely event that the Participating Restaurant delivers a wrong item, you have the right to reject the delivery of the wrong item and you shall be fully refunded for the missing item. If the Participating Restaurant can only do a partial delivery (a few items might be not available), its staff should inform you or propose a replacement for missing items. You have the right to refuse a partial order before delivery and get a refund. We are not responsible for wrong or partial delivery. The issue has to be settled directly with the Participating Restaurant.\n"
+                "Section 7: Information\n"
+                "7.1. Where we have requested information from you to provide Food Delivery, Goods or Services you agree to provide us with accurate and complete information.\n"
+                "7.2. You authorize us to use, store or otherwise process your personal information in order to provide the Food Delivery, Goods or Services to you and for marketing and credit control purposes (the \"Purpose\"). The Purpose may include the disclosure of your personal information to selected third parties from time to time where we believe that the services offered by such third parties may be of interest to you or where this is required by law or in order to provide the Food Delivery, Goods or Service to you. More information can be found in our Privacy Policy.\n"
+                "7.3. You are entitled to request a copy of the personal information we hold on you. Please contact us if you wish to request this information.\n"
+                "Section 8: Linked Sites There may be a number of links on our Website to third party Websites which we believe may be of interest to you. We do not represent the quality of the Goods or Services provided by such third parties nor do we have any control over the content or availability of such sites. We cannot accept any responsibility for the content of third party Websites or the Services or Goods that they may provide to you.\n"
+                "Section 9: Complaints We take complaints very seriously and aim to respond to your complaints within 5 business days. All complaints should be addressed to support@foodpanda.in.\n"
+                "Section 10: Limitation of Liability\n"
+                "10.1. Great care has been taken to ensure that the information available on this Website is correct and error free. We apologize for any errors or omissions that may have occurred. We cannot warrant that use of the Website will be error free or fit for purpose, timely, that defects will be corrected, or that the site or the server that makes it available are free of viruses or bugs or represents the full functionality, accuracy, reliability of the Website and we do not make any warranty whatsoever, whether express or implied, relating to fitness for purpose, or accuracy.\n"
+                "10.2. By accepting these terms of use you agree to relieve us from any liability whatsoever arising from your use of information from any third party, or your use of any third party website, or your consumption of any food or beverages from a Participating Restaurant.\n"
+                "10.3. We disclaim any and all liability to you for the supply of the Food Delivery, Goods and Services to the fullest extent permissible under applicable law. This does not affect your statutory rights as a consumer. If we are found liable for any loss or damage to you such liability is limited to the amount you have paid for the relevant Goods or Services. We cannot accept any liability for any loss, damage or expense, including any direct or indirect loss such as loss of profits to you, howsoever arising. This limitation of liability does not apply to personal injury or death arising as a direct result of our negligence.\n"
+                "10.4. We do not accept any liability for any delays, failures, errors or omissions or loss of transmitted information, viruses or other contamination or destructive properties transmitted to you or your computer system via our Website.\n"
+                "10.5. We shall not be held liable for any failure or delay in performing Services or delivering Goods where such failure arises as a result of any act or omission, which is outside our reasonable control such as all overwhelming and unpreventable events caused directly and exclusively by forces of nature that can be neither anticipated, nor controlled, nor prevented by the exercise of prudence, diligence, and care, including but not limited to: war, riot, civil commotion; compliance with any law or governmental order, rule, regulation or direction and acts of third parties.\n"
+                "10.6. If we have contracted to provide identical or similar order to more than one Customer and are prevented from fully meeting our obligations to you by reason of an Event of Force Majeure, we may decide at our absolute discretion which orders we will fill and to what extent.\n"
+                "10.7. The products sold by us are provided for private domestic and consumer use only. Accordingly, we do not accept liability for any indirect loss, consequential loss, loss of data, loss of income or profit, loss of damage to property and/or loss from claims of third parties arising out of the use of the Website or for any products or services purchased from us.\n"
+                "10.8. We have taken all reasonable steps to prevent Internet fraud and ensure any data collected from you is stored as securely and safely as possible. However, we cannot be held liable in the extremely unlikely event of a breach in our secure computer servers or those of third parties.\n"
+                "10.9. In the event foodpanda has a reasonable belief that there exists an abuse of vouchers and/or discount codes or in suspected instances of fraud, foodpanda may cause the shopper (or customer) to be blocked immediately and reserves the right to refuse future service. Additionally, should there exist an abuse of vouchers or discount codes, foodpanda reserves the right to seek compensation from any and all violators.\n"
+                "10.10. Offers are subject to Foodpanda's discretion and may be withdrawn at any time and without notice.\n"
+                "Section 11: General\n"
+                "11.1. All prices are in India Rupees. GST is included where indicated\n"
+                "11.2. We may subcontract any part or parts of the Services or Goods that we provide to you from time to time and we may assign or novate any part or parts of our rights under these Terms and Conditions without your consent or any requirement to notify you.\n"
+                "11.3. We may alter or vary the Terms and Conditions at any time without notice to you.\n"
+                "11.4. Payment must be made either at the time of ordering the Food Delivery, Goods or Services from us by credit card or at the time of delivery by cash. Failure to pay on time will result in the cancellation of your order.\n"
+                "11.5. Do not use or launch any automated system or program in connection with our website or its online ordering functionality;\n"
+                "11.6. Do not collect or harvest any personally identifiable information from the website, use communication systems provided by the website for any commercial solicitation purposes, solicit for any reason whatsoever any users of the website with respect to their submissions to the website, or publish or distribute any vouchers or codes in connection with the website, or scrape or hack the website.\n"
+                "11.7. The Terms and Conditions together with the Privacy Policy, any order form and payment instructions constitute the entire agreement between you and us. No other terms whether expressed or implied shall form part of this Agreement. In the event of any conflict between these Terms and Conditions and any other term or provision on the Website, these Terms and Conditions shall prevail.\n"
+                "11.8. If any term or condition of our Agreement shall be deemed invalid, illegal or unenforceable, the parties hereby agree that such term or condition shall be deemed to be deleted and the remainder of the Agreement shall continue in force without such term or condition.\n"
+                "11.9. These Terms and Conditions and our Agreement shall be governed by and construed in accordance with the laws of India. The parties hereto submit to the exclusive jurisdiction of the courts of India.\n"
+                "11.10. No delay or failure on our part to enforce our rights or remedies under the Agreement shall constitute a waiver on our part of such rights or remedies unless such waiver is confirmed in writing.\n"
+                "11.11. Customers placing order with foodpanda are liable of receiving promotional SMS, irrespective of their number being registered under NDNC. If customer wish to not receive promotional SMS, they may contact us on customercare@foodpanda.in\n"
+                "11.12. These Terms and Conditions and a contract (and all non-contractual obligations arising out of or connected to them) shall be governed and construed in accordance with India Laws. Both we and you hereby submit to the non-exclusive jurisdiction of the India Courts. All dealings, correspondence and contacts between us shall be made or conducted in the English language.\n"
+                "11.13. The voucher calculation is subject to Foodpanda's discretion and may be altered at any time and without notice. The voucher can discount any/all of the components including food cost, taxes and fees and likewise.\n"
+                "11.14. Any Service Fee/Delivery Fee charged by Foodpanda is subject to prevailing GST Rates.\n"
+                "11.15. Rates under the GST regime has recently been notified. The restaurants are currently examining the taxability of their supplies. Foodpanda hence, does not bear any responsibility on the taxes charged by the restaurant in the interim period." </string>
+    <string name="Privacy">"1. Introduction\n"
+    "  \n"
+    "This policy explains how we, Rocket Food Limited (hereinafter referred to as “resturant”), use the personal information which you provide to us when using our service, including but not limited to our website and mobile applications (jointly referred as “Website”). Please read this Privacy Policy and understand it before using our services. By visiting and/or ordering services on this Website, you agree and, where required, consent to the collection, use and transfer of your information as set out in this policy.  \n"
+    "\n"
+    "2. What information do we collect about you?\n"
+    "  \n"
+    "We collect personal information from you when you order goods or services from us or use our Website. We also collect information when you complete any customer survey. Website usage information may also be collected using cookies (as defined below). foodpanda will collect information that personally identifies you and/or your location, where required (this may include your name, email address, home address, telephone number, geolocation, etc.), but only when you voluntarily give it to us. We collect this information exclusively to carry out the functions offered on the Website and to provide you with offers and information about foodpanda and other services we think you may be interested in. We might collect this personal information through: online food ordering; entry into competitions; subscribing to our newsletter; creating a user account; sending 'contact us' messages or other correspondence through the Website; or through advertising, research and direct marketing. We do not collect sensitive information about you.  \n"
+    "\n"
+    "3. Cookies\n"
+    "  \n"
+    "Some of the information collected will not personally identify you but will instead track your use of the Website so that we can better understand how the Website is used by customers and in turn enhance and improve your experience in ordering food. We may obtain this information by use of cookies. Cookies are a small data file transferred to your device that recognises and identifies your device and allows your device to 'remember' information from the Website for future use. Cookies do not contain any information that personally identifies you and we do not use cookies in order to obtain such information - your personal information can only be obtained by foodpanda if you actively provide it to us. We may collect technical information from your mobile device or your use of our services through a mobile device, for example, location data and certain characteristics of, and performance data about your device, carrier/operating system including device and connection type, IP address, mobile payment methods, interaction with other retail technology such as use of NFC Tags, QR Codes or use of mobile vouchers. Your device and/or the web browser should allow you to refuse cookies if you wish by changing the settings. To find out more about cookies, including how to see what cookies have been set and how to manage and delete them, visit www.allaboutcookies.org.  \n"
+    "\n"
+    "4. Storage and security of your personal information\n"
+    "  \n"
+    "foodpanda will use all reasonable endeavours to maintain the security of your personal information and to protect your personal information from misuse, interference and loss and against unauthorised access, modification or disclosure. foodpanda will destroy any personal information it holds about you which it no longer requires under the terms of this Privacy Policy. Where you have chosen a password to access certain services of the Website, you are responsible for keeping your password confidential. We recommend not sharing your password with anyone. Due to the nature of the internet, foodpanda does not provide any guarantee or warranty regarding the security of your personal information during transmission to us or storage by us and you acknowledge that you disclose your personal information to us at your own risk. Please contact us immediately if you become aware or have reason to believe there has been any unauthorised use of your personal information in connection with the Website.  \n"
+    "\n"
+    "5. How will we use the information we collect from you?\n"
+    "  \n"
+    "You consent to foodpanda collecting and using your personal information for processing and delivering the order/s placed on the Website and any other service provided through the Website. In particular you expressly consent that foodpanda may disclose your personal information, including your name, email address, physical address and telephone number to riders delivering your order, either employed by foodpanda or by third parties providing delivery services to foodpanda. You consent to foodpanda using your personal information for advertising and direct marketing purposes in order to inform you about the Website and the goods and services it provides, or other matters that it believes will be of interest to you. foodpanda may disclose your personal information, and you consent to the disclosure of your personal information, to:\n"
+    "other entities within the foodpanda group of companies; and\n"
+    "third parties engaged by foodpanda or other members of the foodpanda group to perform functions or provide products and services on our behalf such as processing payments, mail outs, debt collection, research, statistical information, marketing and direct or indirect advertising.\n" +
+    "If you would like to unsubscribe from receiving direct marketing communications from foodpanda or do not want us to share your personal information with other parties, please e-mail us at support@foodpanda.hkor follow the steps to unsubscribe which are presented in every communication you receive from us, requesting your personal information be removed from our mailing list. We will use reasonable endeavours to comply with your request within a reasonable period of receipt of your request. Please note that the withdrawal of any authorisations for processing of your personal information by third parties may result in us not being able to provide you with any services. foodpanda reserves the right to disclose your personal information if it is required or authorised to do so by law, or, if it is reasonably necessary in its opinion to protect the rights or property of foodpanda or any third party, or to avoid injury to any person. If the foodpanda business is sold or merges with another entity then some or all of your personal information may be passed to a third party.  \n"
+    "\n"
+    "6. Access to your information\n"
+    "  \n"
+    "foodpanda will use all reasonable endeavours to keep personal information it holds accurate, complete, up-to-date, relevant and not misleading. Please contact us if you would like to access the personal information foodpanda holds about you. We will use reasonable endeavours to provide a complete list of your personal information within a reasonable period of receipt of your request. Please email us if you would like to receive a copy of this information – support@foodpanda.hk. Foodpanda reserves the right to charge a nominal fee for the processing of this request in accordance with local legislation. You may contact us to correct any of your personal information that is inaccurate, incomplete or out-of-date, or to request that your personal information be deleted. We will use reasonable endeavours to correct or delete your personal information as requested within a reasonable period of receipt of your request. Deletion of your account with foodpanda will not automatically delete the personal information held about you. If you would like foodpanda to delete all personal information together with the deletion of your account, please follow the steps mentioned-above. Please note that the deletion of your personal information from our database will result in us not being able to provide you with any services. If applicable, any legal requirement on us to maintain certain records of your personal information shall prevail over any of your requests. We may require you to prove your identity before providing you with copies of your personal information.  \n"
+    "\n"
+    "7. Changes to our Privacy Policy\n"
+    "  \n"
+    "Foodpanda reserves the right to alter all or any part of this Privacy Policy. Any changes thereto will be notified via the Website and, where appropriate, through e-mail notification. \n"
+    " \n"
+    "8. Other Websites\n"
+    "  \n"
+    "Our Website may have links to other websites. This privacy policy only applies to the Website. You should therefore read the privacy policies of the other websites when you are using those sites.  \n"
+    "\n" +
+    "9. Contact\n"
+    "  \n"
+    "All comments, queries and requests relating to our use of your information are welcomed and should be addressed to: support@restaurant.hk  " </string>
+
+    <string name="work">"1. How it works\n"
+    "\n"
+    restaurant.in is a conveninet online booking app that connects users with thousands of local restaurants.restaurant.in is open 24 hours from monday to sunday.During closing hours you can browse.our restaurant do everything they can to get your vooking as quickly as possible...
+    </string>
+
+
+    <string name="hint_company"> Company Name*</string>
+    <string name="hint_address"> Address*</string>
+    <string name="hint_subject">Subject*</string>
+    <string name="hint_Concern">Concern Person*</string>
+    <string name="hint_Emailaddress">E-mail Address*</string>
+    <string name="hint_file">File Number*</string>
+    <string name="hint_phone">Phone Number*</string>
+    <string name="hint_alternative">Alternative Number*</string>
+    <string name="hint_faxnumber">Fax Number*</string>
+    <string name="hint_pincode">PinCode*</string>
+    <string name="hint_city">city*</string>
+    <string name="hint_state">state*</string>
+    <string name="hint_contact">Contact Person Name*</string>
+    <string name="hint_department">Department*</string>\
+    <string name="hint_depart_phon">phone no..*</string>
+    <string name="hint_remarkaddress">Remarks**</string>
+    <string name="title_activity_home__page">Home_Page</string>
+    <string name="title_activity_check">Check</string>
+    <string name="title_activity_special_product">Special_product</string>
+
+
+</resources>

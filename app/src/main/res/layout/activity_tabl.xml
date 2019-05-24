@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:orientation="vertical"
+    app:layout_collapseParallaxMultiplier="0.0"
+    tools:context="com.restaurent.activity.user.Tabl">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="left"
+        android:text=" DATE* "
+        android:textAlignment="center"
+        android:textColor="@color/blue_300"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/mybutton"
+        android:singleLine="true"
+        android:text="double tap to select date"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="-80dp"
+        android:text=" TO* "
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textColor="@color/blue_300"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+
+    <Spinner
+        android:id="@+id/totime"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:background="@drawable/mybutton" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="-80dp"
+        android:text=" FROM* "
+        android:textAlignment="center"
+        android:textColor="@color/blue_300"
+        android:textSize="16dp"
+        android:layout_gravity="right"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/fromtime"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="right"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/mybutton" />
+
+    <Button
+        android:id="@+id/btn_check"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round"
+        android:hint="from"
+        android:text="select your tables"
+        android:textColor="@color/black"
+
+        android:textColorHint="#dfd5d5"
+        android:textSize="15dp" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/home_list_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="376dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:scrollbars="vertical" />
+
+</LinearLayout>

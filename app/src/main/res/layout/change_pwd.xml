@@ -1,0 +1,195 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/actionbar"
+        layout="@layout/app_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_view_id_chg_pwd"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:layout_marginBottom="@dimen/_50sdp"
+                android:layout_marginEnd="@dimen/_16sdp"
+                android:layout_marginLeft="@dimen/_16sdp"
+                android:layout_marginRight="@dimen/_16sdp"
+                android:layout_marginStart="@dimen/_16sdp"
+                android:layout_marginTop="@dimen/_16sdp"
+                card_view:cardCornerRadius="@dimen/_2sdp"
+                card_view:contentPadding="@dimen/_10sdp">
+
+                <LinearLayout
+                    android:id="@+id/layout_change_pwd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_cpwd_main_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:gravity="start"
+                        android:padding="@dimen/_5sdp"
+                        android:text="@string/change_password_page"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_cpwd_sub_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:gravity="start"
+                        android:padding="@dimen/_5sdp"
+                        android:text="@string/your_personal_details"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:id="@+id/SplitLine_hor"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_1sdp"
+                        android:layout_marginTop="@dimen/_6sdp"
+                        android:background="@color/grey_400" />
+
+                    <TextView
+                        android:id="@+id/tv_change_password"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_16sdp"
+                        android:drawableEnd="@drawable/ic_action_grade_red_10dp"
+                        android:drawableRight="@drawable/ic_action_grade_red_10dp"
+                        android:gravity="start"
+                        android:padding="@dimen/_5sdp"
+                        android:text="@string/password"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/et_change_password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edit_text_modified_text_state"
+                        android:hint="@string/password"
+                        android:inputType="textPassword"
+                        android:padding="@dimen/_10sdp"
+                        android:textColorHint="@color/grey_400"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/tv_cpwd_error_pwd"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        android:padding="@dimen/_5sdp"
+                        android:text="@string/reg_error_pwd"
+                        android:textColor="@color/red"
+                        android:textSize="12sp"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/tv_change_confirm_password"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_16sdp"
+
+                        android:drawableEnd="@drawable/ic_action_grade_red_10dp"
+                        android:drawableRight="@drawable/ic_action_grade_red_10dp"
+                        android:gravity="start"
+                        android:padding="@dimen/_5sdp"
+                        android:text="@string/confirm_password"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/et_change_confirm_password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edit_text_modified_text_state"
+                        android:hint="@string/password"
+                        android:inputType="textPassword"
+                        android:padding="@dimen/_10sdp"
+                        android:textColorHint="@color/grey_400"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/tv_cpwd_error_confirm_pwd1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        android:padding="@dimen/_5sdp"
+                        android:text="@string/reg_error_pwd"
+                        android:textColor="@color/red"
+                        android:textSize="12sp"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/tv_cpwd_error_confirm_pwd2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        android:padding="@dimen/_5sdp"
+                        android:text="@string/reg_error_confirm_pwd"
+                        android:textColor="@color/red"
+                        android:textSize="12sp"
+                        android:visibility="gone" />
+
+                    <LinearLayout
+                        android:id="@+id/layout_my_ac_actions"
+                        style="?android:attr/buttonBarStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_30sdp"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/btn_change_pwd_back"
+                            style="?android:attr/buttonBarButtonStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_20sdp"
+                            android:layout_marginEnd="@dimen/_2sdp"
+                            android:layout_marginRight="@dimen/_2sdp"
+                            android:layout_marginTop="@dimen/_20sdp"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/mybutton"
+                            android:text="@string/back"
+                            android:textColor="@color/white"
+                            android:textSize="16sp" />
+
+                        <Button
+                            android:id="@+id/btn_change_pwd_continue"
+                            style="?android:attr/buttonBarButtonStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_20sdp"
+                            android:layout_marginLeft="@dimen/_2sdp"
+                            android:layout_marginStart="@dimen/_2sdp"
+                            android:layout_marginTop="@dimen/_20sdp"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/myyshape"
+                            android:text="@string/_continue"
+                            android:textColor="@color/white"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

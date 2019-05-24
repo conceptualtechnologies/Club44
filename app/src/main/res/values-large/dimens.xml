@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="caption">14sp</dimen>
+    <dimen name="body">16sp</dimen>
+    <dimen name="sub_heading">18sp</dimen>
+    <dimen name="title">22sp</dimen>
+    <dimen name="headline">26sp</dimen>
+</resources>

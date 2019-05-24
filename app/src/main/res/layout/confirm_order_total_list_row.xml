@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_30sdp"
+    android:background="@android:color/white"
+    android:showDividers="middle">
+
+    <TextView
+        android:id="@+id/confirmation_shipping_title"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="@dimen/_5sdp"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/body" />
+
+    <TextView
+        android:id="@+id/confirmation_shipping_value"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="@dimen/_5sdp"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/body" />
+
+</LinearLayout>
+
+
+

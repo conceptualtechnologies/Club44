@@ -1,0 +1,135 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@drawable/dec"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:context="com.restaurent.activity.user.Tabl">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:text=" DATE* "
+        android:textSize="16dp"
+        android:textColorHint="#dfd5d5"
+        android:textStyle="bold|italic"
+
+        android:textColor="@color/red" />
+
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/new_edit_box_bg_normal"
+
+
+
+        android:singleLine="true"
+
+
+        android:text="double tap to select date"
+
+        android:textSize="14dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="-80dp"
+        android:text=" TO* "
+        android:textSize="16dp"
+        android:textColorHint="#dfd5d5"
+        android:textStyle="bold|italic"
+
+        android:textColor="@color/red" />
+
+
+    <Spinner
+        android:id="@+id/totime"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+
+
+        android:layout_marginLeft="140dp"
+        android:layout_marginRight="-10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/new_edit_box_bg_normal"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="-80dp"
+        android:text=" FROM* "
+        android:textSize="16dp"
+        android:textColorHint="#dfd5d5"
+        android:textStyle="bold|italic"
+
+        android:textColor="@color/red"/>
+
+    <Spinner
+        android:id="@+id/fromtime"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="260dp"
+
+        android:layout_marginRight="-10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/new_edit_box_bg_normal" />
+
+    <Button
+        android:id="@+id/btn_check"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColorHint="#dfd5d5"
+
+        android:background="@drawable/round"
+        android:hint="from"
+
+
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"
+
+        android:text="select your events"
+        android:textColor="@color/black" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/home_list_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="0dp"
+            android:scrollbars="vertical"
+            />
+    </ScrollView>
+</LinearLayout>

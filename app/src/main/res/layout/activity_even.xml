@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.restaurent.activity.user.Tabl">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:text=" DATE* "
+        android:textSize="16dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_gravity="left"
+        android:textColor="@color/blue_300"
+        />
+
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/mybutton"
+        android:singleLine="true"
+        android:text="double tap to select date"
+        />
+
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-80dp"
+        android:textAlignment="center"
+        android:text=" TO* "
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="@color/blue_300" />
+
+
+    <Spinner
+        android:id="@+id/totime"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/mybutton"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="-80dp"
+        android:layout_gravity="right"
+        android:textAlignment="center"
+        android:text=" FROM* "
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="@color/blue_300"/>
+
+    <Spinner
+        android:id="@+id/fromtime"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:textSize="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/mybutton" />
+
+    <Button
+        android:id="@+id/btn_check"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColorHint="#dfd5d5"
+        android:background="@drawable/round"
+        android:hint="from"
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"
+        android:text="select your events"
+        android:textColor="@color/black" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/home_list_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="0dp"
+            android:scrollbars="vertical"
+            />
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.Home">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/customer_care"
+        android:orderInCategory="100"
+        android:title="Customer Care"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/offer"
+        android:orderInCategory="100"
+        android:title="Offer "
+        app:showAsAction="never" />
+
+
+
+    <item
+        android:id="@+id/register"
+        android:orderInCategory="100"
+        android:title="@string/menu_register"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/login"
+        android:orderInCategory="100"
+        android:title="@string/menu_login"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/order"
+        android:orderInCategory="100"
+        android:title="@string/menu_order"
+        app:showAsAction="never" />
+
+
+
+    <item
+        android:id="@+id/my_booking"
+        android:orderInCategory="100"
+        android:title="@string/menu_my_booking"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/logout"
+        android:orderInCategory="100"
+        android:title="@string/menu_logout"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/invite"
+        android:orderInCategory="100"
+        android:title="Invite"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:orderInCategory="100"
+        android:title="@string/search"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/cart_count"
+        android:icon="@drawable/ic_shopping_cart_white_24dp"
+        android:orderInCategory="100"
+        android:title="@string/menu_cart"
+        app:actionLayout="@layout/custom_cart_layout_login"
+        app:showAsAction="always" />
+
+
+</menu>

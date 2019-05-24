@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    android:layout_marginBottom="@dimen/_5sdp"
+
+
+
+    card_view:cardBackgroundColor="@color/white"
+    card_view:cardCornerRadius="2dp"
+    card_view:contentPadding="10dp"
+
+    android:padding="@dimen/_5sdp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Club44"
+        android:id="@+id/btn_dialog2"
+        android:background="@color/white"
+        android:gravity="center"
+
+
+        android:layout_marginLeft="110dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black" />
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="120dp"
+        android:id="@+id/product_image"
+        android:gravity="center"
+android:fitsSystemWindows="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:scaleType="fitXY" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Choose Option"
+        android:id="@+id/btn_dia"
+        android:background="@color/white"
+        android:gravity="center"
+        android:layout_marginTop="170dp"
+
+        android:layout_marginLeft="12dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black" />
+    <RadioGroup
+        android:id="@+id/radio"
+        android:layout_marginTop="210dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radio_spicy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spicy"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/radio_salty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salty" />
+
+        <RadioButton
+            android:id="@+id/radio_crispy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Crispy" />
+        <RadioButton
+            android:id="@+id/radio_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Regular" />
+    </RadioGroup>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Submit"
+        android:id="@+id/btn_dialog"
+        android:background="@color/white"
+        android:gravity="center"
+
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="90dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black" />
+
+</android.support.v7.widget.CardView>

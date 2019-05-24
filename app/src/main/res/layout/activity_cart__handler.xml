@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".activity.Cart">
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+
+    <Button
+        android:id="@+id/cart_check_out"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+
+
+        android:background="@color/colorAccent2"
+        android:drawableLeft="@drawable/ic_shopping_cart_white_24dp"
+        android:drawablePadding="@dimen/_minus60sdp"
+        android:drawableStart="@drawable/ic_shopping_cart_white_24dp"
+        android:gravity="center"
+        android:paddingEnd="0dp"
+        android:paddingLeft="@dimen/_90sdp"
+        android:paddingRight="0dp"
+        android:paddingStart="@dimen/_90sdp"
+        android:text="@string/checkout"
+
+        android:textColor="@color/white"
+        android:textSize="16dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:textColorHint="#dfd5d5">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:textColorHint="#dfd5d5">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+android:textSize="12dp"
+android:layout_marginLeft="30dp"
+            android:text="ORDER DATE"
+android:gravity="bottom"
+
+
+            />
+
+        <EditText
+            android:id="@+id/followup_detail_date"
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:textStyle="bold"
+            android:layout_marginTop="0dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:drawableRight="@drawable/date"
+            android:hint="ENTER DATE"
+            android:inputType="none"
+            android:textSize="14dp" />
+</LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/coupan"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="start|center"
+
+                    android:text="APPLY COUPEN"
+                    android:textColor="@color/text_color"
+                    android:textSize="12dp"
+                     />
+
+                <EditText
+                    android:id="@+id/cpn_txt"
+                    android:layout_width="0dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded_border_edittext"
+
+                    android:gravity="center"
+                   android:layout_marginRight="20dp"
+                    android:hint="Enter Pin Code"
+                    android:textColor="@color/text_color"
+                    android:textSize="12dp"
+                    />
+
+                <Button
+                    android:id="@+id/btn_cpn"
+                    android:layout_width="0dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+android:textSize="12dp"
+                    android:text="Apply"
+                   />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/cart_subtotal_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+
+                    android:gravity="start|center"
+
+                    android:text="TOTAL"
+                    android:textSize="12dp"
+                    android:textColor="@color/text_color"
+
+                     />
+
+                <TextView
+                    android:id="@+id/cart_subtotal_value"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+android:layout_marginLeft="98dp"
+                    android:padding="@dimen/_5sdp"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/body"
+                     />
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+android:background="@color/cb_grey"
+            android:layout_marginTop="10dp"
+            android:text="CART ITEMS"
+            android:textSize="12dp"
+            android:textColorHint="#dfd5d5"
+
+            />
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/cart_product_items"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

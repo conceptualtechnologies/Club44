@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+
+    tools:context="com.restaurent.activity.user.CompanyProfile">
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar"
+        />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="134dp"
+        android:gravity="center"
+        android:text="Company Profile"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="fill_parent"
+        android:layout_height="350dp"
+        android:maxLines="10"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="120dp"
+        android:textColor="@color/blue"
+        android:gravity="center"
+        android:text="* Company name->Restuarant Corporation
+                                   Industries.\n
+* Establish -> August 2017.\n
+* Brand Name -> Resturant. \n
+* Industry Type -> Online Foods Order And Delivery. \n
+* Company Products -> Tea, Coffe, Breakfast, Lunch,
+ Dinner, Cake, Sweets  etc."
+        android:textAlignment="viewStart"
+        android:textSize="16sp" />
+
+</RelativeLayout>

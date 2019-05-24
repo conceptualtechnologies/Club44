@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/_50sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                style="?android:attr/buttonBarStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/grey_200"
+                android:paddingEnd="0dp"
+                android:paddingLeft="3dp"
+                android:paddingRight="0dp"
+                android:paddingStart="3dp">
+
+                <ImageButton
+                    android:id="@+id/check_out_delivery_detail_cart"
+                    android:layout_width="@dimen/_52sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:background="@drawable/first"
+                    android:contentDescription="@string/image"
+                    android:src="@drawable/ic_check_circle" />
+
+                <Button
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="@dimen/_140sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_marginLeft="@dimen/_minus10sdp"
+                    android:layout_marginStart="@dimen/_minus10sdp"
+                    android:background="@drawable/third_new"
+                    android:drawableLeft="@drawable/checkout_two"
+                    android:drawableStart="@drawable/checkout_two"
+                    android:paddingEnd="0dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="0dp"
+                    android:paddingStart="15dp"
+                    android:text="@string/checkout_bar_delivery_and_billing_detail"
+                    android:textColor="@color/text_color" />
+
+                <ImageButton
+                    android:layout_width="@dimen/_52sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_marginLeft="@dimen/_minus10sdp"
+                    android:layout_marginStart="@dimen/_minus10sdp"
+                    android:background="@drawable/second"
+                    android:contentDescription="@string/image"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:paddingStart="@dimen/_5sdp"
+                    android:paddingEnd="0dp"
+                    android:paddingRight="0dp"
+                    android:src="@drawable/checkout_three" />
+
+                <ImageButton
+                    android:layout_width="@dimen/_52sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_marginLeft="@dimen/_minus10sdp"
+                    android:layout_marginStart="@dimen/_minus10sdp"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:paddingStart="@dimen/_5sdp"
+                    android:paddingEnd="0dp"
+                    android:paddingRight="0dp"
+                    android:background="@drawable/second"
+                    android:contentDescription="@string/image"
+                    android:src="@drawable/checkout_four" />
+
+                <ImageButton
+                    android:layout_width="@dimen/_52sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_marginLeft="@dimen/_minus10sdp"
+                    android:layout_marginStart="@dimen/_minus10sdp"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:paddingStart="@dimen/_5sdp"
+                    android:paddingEnd="0dp"
+                    android:paddingRight="0dp"
+                    android:background="@drawable/fourth"
+                    android:contentDescription="@string/image"
+                    android:src="@drawable/checkout_five" />
+
+            </LinearLayout>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10sdp"
+                android:background="@color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="@dimen/_5sdp"
+                            android:text="@string/delivery_shipment_info"
+                            android:textColor="@color/text_color"
+                            android:textSize="@dimen/sub_heading" />
+
+                        <ImageButton
+                            android:id="@+id/confirmation_shipping_address_change"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:contentDescription="@string/image"
+                            android:padding="@dimen/_7sdp"
+                            android:src="@drawable/ic_mode_edit_grey_500_18dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_50sdp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/shipment_first_name"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/_5sdp"
+                            android:layout_weight="1"
+
+                            android:textColor="@color/orange"
+                            android:background="@color/edit_box_back_ground"
+                            android:ems="10"
+                            android:gravity="start|center"
+                            android:padding="@dimen/_5sdp"
+                            android:textSize="@dimen/body" />
+
+                        <TextView
+                            android:id="@+id/shipment_last_name"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/_5sdp"
+                            android:layout_weight="1"
+                            android:background="@color/edit_box_back_ground"
+                            android:ems="10"
+                            android:gravity="start|center"
+                            android:padding="@dimen/_5sdp"
+                            android:textSize="@dimen/body" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_50sdp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/shipment_phone_number"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/_5sdp"
+                            android:layout_weight="1"
+                            android:background="@color/edit_box_back_ground"
+                            android:ems="10"
+                            android:gravity="start|center"
+                            android:padding="@dimen/_5sdp"
+                            android:textSize="@dimen/body" />
+
+                        <TextView
+                            android:id="@+id/shipment_company"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/_5sdp"
+                            android:layout_weight="1"
+                            android:background="@color/edit_box_back_ground"
+                            android:gravity="start|center"
+                            android:padding="@dimen/_5sdp"
+                            android:textSize="@dimen/body" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/shipment_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_50sdp"
+                        android:layout_gravity="end"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:background="@color/edit_box_back_ground"
+                        android:ems="10"
+                        android:gravity="start|center"
+                        android:padding="@dimen/_5sdp"
+                        android:textSize="@dimen/body" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_50sdp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/shipment_city"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/_5sdp"
+                            android:layout_weight="1"
+                            android:background="@color/edit_box_back_ground"
+                            android:gravity="start|center"
+                            android:padding="@dimen/_5sdp"
+                            android:textSize="@dimen/body" />
+
+                        <TextView
+                            android:id="@+id/shipment_zip_code"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/_5sdp"
+                            android:layout_weight="1"
+                            android:background="@color/edit_box_back_ground"
+                            android:ems="10"
+                            android:gravity="start|center"
+                            android:padding="@dimen/_5sdp"
+                            android:textSize="@dimen/body" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_50sdp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/shipment_state"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/_5sdp"
+                            android:layout_weight="1"
+                            android:background="@color/edit_box_back_ground"
+                            android:padding="@dimen/_5sdp"
+                            android:textSize="@dimen/body" />
+
+                        <TextView
+                            android:id="@+id/shipment_country"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/_5sdp"
+                            android:layout_weight="1"
+                            android:background="@color/edit_box_back_ground"
+                            android:padding="@dimen/_5sdp"
+                            android:textSize="@dimen/body" />
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/delivery_continue_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/mybutton"
+        android:text="@string/_continue"
+        android:textColor="@color/white"
+        android:textSize="@dimen/body" />
+</FrameLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="fill_parent"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+
+
+
+        android:orientation="vertical"
+    android:gravity="center"
+        tools:context="com.restaurent.activity.user.Open"
+    android:background="@color/colorPrimary2" >
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:textSize="45sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To access all features of the app provided by Code Is All, You need   ."
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="35dp"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:id="@+id/tv_home"
+        android:hint="HOME"
+        android:background="@color/white_transparent_25"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"/>
+
+    <TextView
+        android:id="@+id/tv_booktables"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:background="@color/white_transparent_25"
+        android:gravity="center"
+        android:hint="BOOK TABLE"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:id="@+id/tv_even"
+        android:background="@color/white_transparent_25"
+        android:gravity="center"
+        android:hint="EVENTS"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"/>
+
+
+
+</LinearLayout>
+
+

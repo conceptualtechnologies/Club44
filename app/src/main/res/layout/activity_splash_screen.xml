@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.restaurent.activity.SplashScreen">
+
+    <ImageView
+        android:id="@+id/splash_screen"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_gravity="center"
+        android:background="@drawable/icons"
+        android:contentDescription="@string/image"
+        android:fitsSystemWindows="true"
+        android:scaleType="fitXY" />
+    <include
+        android:id="@+id/splash_screen_progress_bar"
+        layout="@layout/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+
+
+</FrameLayout>
+
+

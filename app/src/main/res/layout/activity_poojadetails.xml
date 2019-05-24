@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context=".activity.user.Poojadetails">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/red"
+                app:popupTheme="@style/AppTheme.PopupOverlay">
+
+                <TextView
+                    android:id="@+id/toolbar_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text=" Details"
+                    android:textColor="@color/white"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.Toolbar>
+
+        </android.support.design.widget.AppBarLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:paddingLeft="50dp"
+            android:text="These Fields Are Mandatory To Fill**"
+            android:textColor="@color/colorPrimaryDark1"
+            android:textSize="17dp" />
+
+
+        <TextView
+            android:id="@+id/tv_vendor_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/black_transparent_0"
+            android:text=" 1) Vendor Detail"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:id="@+id/tv_bank_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/black_transparent_0"
+            android:text=" 2) Bank Detail"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:id="@+id/tv_item_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/white_transparent"
+            android:text=" 3) Item Detail"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:id="@+id/tv_delivery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/black_transparent_0"
+            android:text=" 4) Delivery Boy Available"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20dp" />
+    </LinearLayout>
+</RelativeLayout>

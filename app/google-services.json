@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "950781386926",
+    "project_id": "proven-entropy-191513"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:950781386926:android:473295195c262fc5",
+        "android_client_info": {
+          "package_name": "com.restaurent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "950781386926-35mthjf2eaa0q63sk2nsvcl182ih1thp.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "950781386926-s2b5tctdmblq6se96dj2948noqu4r3rl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.restaurent",
+            "certificate_hash": "052c77f3573d16059a19fd9f93904d772443ab0b"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6_D76SIpDW9qgZcjvmJ6HR_Inxvy6THk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

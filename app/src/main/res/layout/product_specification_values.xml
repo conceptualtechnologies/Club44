@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/white"
+    android:layout_margin="@dimen/_4sdp">
+
+    <TextView
+        android:id="@+id/product_detail_value_name"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/_4sdp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:gravity="start|center"
+        android:paddingEnd="@dimen/_5sdp"
+        android:paddingLeft="@dimen/_5sdp"
+        android:paddingRight="@dimen/_5sdp"
+        android:paddingStart="@dimen/_5sdp"
+        android:textSize="@dimen/body"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/product_detail_value_name_value"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/_4sdp"
+        android:layout_weight="1.5"
+        android:background="@drawable/new_text_view_bg"
+        android:gravity="start|center"
+        android:paddingTop="@dimen/_5sdp"
+        android:paddingBottom="@dimen/_5sdp"
+        android:paddingEnd="@dimen/_5sdp"
+        android:paddingLeft="@dimen/_5sdp"
+        android:paddingRight="@dimen/_5sdp"
+        android:paddingStart="@dimen/_5sdp"
+        android:textSize="@dimen/body" />
+
+</LinearLayout>

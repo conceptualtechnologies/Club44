@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.Create_Product_Detail">
+    <ScrollView
+        android:id="@+id/scrollView_sign_up_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+
+
+        <LinearLayout
+            android:id="@+id/layout_sign_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_title_sign_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:padding="4dp"
+                android:text="Upload Product File Here"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_subtitle_personal_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_weight="0.5"
+                android:gravity="start"
+                android:padding="5dp"
+                android:text="Your Problem Information"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="250dp"
+                android:id="@+id/iv_document"
+                android:scaleType="fitXY"
+
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Upload Document"
+                android:background="@drawable/bg_bubble_white"
+                android:id="@+id/btn_document"
+                android:layout_gravity="right" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:id="@+id/iv_signup_name"
+                android:layout_marginTop="10dp" />
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_name"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="-43dp"
+                android:hint="Name" />
+
+            <TextView
+                android:id="@+id/tv_error_s1_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:padding="5dp"
+                android:text="Your Name must be in between 1 to 32 characters"
+                android:textColor="@color/red"
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:id="@+id/iv_signup_email"
+
+                android:layout_marginTop="10dp" />
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:ems="10"
+                android:id="@+id/et_title"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="-45dp"
+                android:hint="Title" />
+
+
+            <TextView
+                android:id="@+id/tv_error_s1_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:padding="5dp"
+                android:text="Please Enter Correct Title"
+                android:textColor="@color/red"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:id="@+id/iv_signup_password"
+                android:layout_alignBottom="@+id/iv_signup_email"
+                android:layout_alignEnd="@+id/iv_signup_email"
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="2dp"
+
+                android:layout_marginTop="10dp"
+                android:layout_alignRight="@+id/iv_signup_email" />
+
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:inputType="text|textMultiLine"
+                android:ems="10"
+                android:id="@+id/et_product"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="-45dp"
+                android:hint="product" />
+
+
+            <TextView
+                android:id="@+id/tv_error_s1_product"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:padding="5dp"
+                android:text="Enter Password above 5 characters"
+                android:textColor="@color/red"
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:id="@+id/iv_signup_password5"
+                android:layout_alignBottom="@+id/iv_signup_email"
+                android:layout_alignEnd="@+id/iv_signup_email"
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="2dp"
+
+                android:layout_marginTop="10dp"
+                android:layout_alignRight="@+id/iv_signup_email" />
+
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:inputType="text|textMultiLine"
+                android:ems="10"
+                android:id="@+id/et_mobile"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="-45dp"
+                android:hint="Mobile No" />
+
+            android:textSize="12sp" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:id="@+id/iv_signup_password6"
+                android:layout_alignBottom="@+id/iv_signup_email"
+                android:layout_alignEnd="@+id/iv_signup_email"
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="2dp"
+
+                android:layout_marginTop="10dp"
+                android:layout_alignRight="@+id/iv_signup_email" />
+
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:inputType="text|textMultiLine"
+                android:ems="10"
+                android:id="@+id/et_email"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="-45dp"
+                android:hint="E-mail" />
+
+
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:id="@+id/iv_signup_phone"
+
+                android:layout_marginTop="10dp" />
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:inputType="text|textMultiLine"
+
+                android:id="@+id/et_adhar"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="-45dp"
+                android:hint="Adhar" />
+
+            <TextView
+                android:id="@+id/tv_error_s1_adhar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:padding="5dp"
+
+                android:textColor="@color/red"
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:id="@+id/iv_signup_phon"
+
+                android:layout_marginTop="10dp" />
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:inputType="text|textMultiLine"
+                android:ems="10"
+                android:id="@+id/et_city"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="-45dp"
+                android:hint="City" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:id="@+id/iv_signup_pho"
+
+                android:layout_marginTop="10dp" />
+
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:id="@+id/iv_signup_address"
+
+                android:layout_marginTop="10dp" />
+
+
+            <TextView
+                android:id="@+id/tv_error_s2_problem_department"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:padding="5dp"
+                android:text="Please Enter Correct Department Name"
+                android:textColor="@color/red"
+                android:textSize="12sp" />
+
+            <Button
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:text="Submit"
+                android:layout_marginBottom="15dp"
+                android:id="@+id/btn_create_report_file"
+                android:layout_gravity="center_horizontal"
+                android:background="#e5a2f4" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

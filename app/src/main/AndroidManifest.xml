@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.restaurent">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:name=".Application_Context"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="Club44"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.SplashScreen"
+            android:label="Club44">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activity.category.Category_Details"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.NoInternetConnection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.category.Filter_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.product.Product_Details"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.user.ForgetPassword"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.Home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.product.ImageFullView"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.Cart"
+            android:label="Your Cart"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.Wish_List"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.Search"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.product.Product_Detail_And_Description"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.Network_Error"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.Check_Out"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.account.MyAccountInfo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.account.CardViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.account.MyAccountMainMenu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.account.ChangePwd"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.account.OrderHistory"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.account.OrderHistoryOrderInfo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.account.AddsBook_EditAdds"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PayuActivity"
+            android:label="@string/title_activity_payu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".paymentSuccess"
+            android:label="@string/title_activity_payment_success"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PayMentGateWay"
+            android:label="@string/title_activity_payu"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.user.Poojadetails"
+            android:noHistory="true" />
+        <activity
+            android:name=".activity.user.Bankdetail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.user.Itemdetail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.user.Delivery"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activity.user.SignUp"
+            android:noHistory="true"/>
+        <activity android:name=".activity.user.Login" />
+        <activity android:name=".activity.user.Front" />
+        <activity
+            android:name=".activity.user.CompanyProfile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.user.Company_Aims"
+            android:label="Company Aims"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.user.Customer_Care"
+            android:label="Customer Care" />
+        <activity
+            android:name=".activity.user.Offer"
+            android:label="Offers" />
+        <activity
+            android:name=".activity.user.Availability_of_products"
+            android:label="Availability of Products" />
+        <activity android:name=".activity.user.Even" />
+        <activity android:name=".activity.user.Event" />
+        <activity android:name=".activity.user.Guests" />
+        <activity android:name=".activity.user.Tabl" />
+        <activity android:name=".activity.user.Open" />
+        <activity android:name=".activity.user.Splashscreen" />
+        <activity
+            android:name=".activity.Home_Page"
+            android:label="Home" />
+        <activity
+            android:name=".activity.user.Check"
+            android:label="Order"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.Cart" />
+        </activity>
+        <activity
+            android:name=".activity.user.Special_product"
+            android:label="Offer"
+            >
+
+        </activity>
+    </application>
+
+</manifest>

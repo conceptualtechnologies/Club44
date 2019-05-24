@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/_50sdp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/grey_200"
+            android:orientation="horizontal"
+            android:paddingEnd="0dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="0dp"
+            android:paddingStart="3dp">
+
+            <ImageButton
+                android:id="@+id/check_out_delivery_type_cart"
+                android:layout_width="@dimen/_52sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:background="@drawable/first"
+                android:contentDescription="@string/image"
+                android:src="@drawable/ic_check_circle" />
+
+            <ImageButton
+                android:id="@+id/check_out_delivery_type_delivery_detail"
+                android:layout_width="@dimen/_52sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginLeft="@dimen/_minus10sdp"
+                android:layout_marginStart="@dimen/_minus10sdp"
+                android:background="@drawable/second"
+                android:contentDescription="@string/image"
+                android:src="@drawable/ic_check_circle" />
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="@dimen/_140sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginLeft="@dimen/_minus10sdp"
+                android:layout_marginStart="@dimen/_minus10sdp"
+                android:background="@drawable/third_new"
+                android:drawableLeft="@drawable/checkout_three"
+                android:drawableStart="@drawable/checkout_three"
+                android:paddingEnd="0dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="0dp"
+                android:paddingStart="15dp"
+                android:text="@string/checkout_bar_delivery_method"
+                android:textColor="@color/text_color" />
+
+            <ImageButton
+                android:layout_width="@dimen/_52sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginLeft="@dimen/_minus10sdp"
+                android:layout_marginStart="@dimen/_minus10sdp"
+                android:background="@drawable/second"
+                android:contentDescription="@string/image"
+                android:paddingEnd="0dp"
+                android:paddingLeft="@dimen/_5sdp"
+                android:paddingRight="0dp"
+                android:paddingStart="@dimen/_5sdp"
+                android:src="@drawable/checkout_four" />
+
+            <ImageButton
+                android:layout_width="@dimen/_52sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginLeft="@dimen/_minus10sdp"
+                android:layout_marginStart="@dimen/_minus10sdp"
+                android:background="@drawable/fourth"
+                android:contentDescription="@string/image"
+                android:paddingEnd="0dp"
+                android:paddingLeft="@dimen/_4sdp"
+                android:paddingRight="0dp"
+                android:paddingStart="@dimen/_4sdp"
+                android:src="@drawable/checkout_five" />
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10sdp"
+                android:background="@color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/shipping_type_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_10sdp"
+                        android:padding="@dimen/_10sdp"
+                        android:text="@string/shipping_type"
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/sub_heading" />
+
+                    <RadioGroup
+                        android:id="@+id/shipping_type_chooser"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:orientation="vertical"
+                        android:padding="@dimen/_10sdp" />
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </ScrollView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/shipping_type_continue"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/mybutton"
+        android:text="@string/_continue"
+        android:textColor="@color/white"
+        android:textSize="@dimen/body" />
+</FrameLayout>

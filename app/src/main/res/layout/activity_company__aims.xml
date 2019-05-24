@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.restaurent.activity.user.CompanyProfile">
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar"
+        />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+
+        android:text="Company Aims"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="150dp"
+        android:gravity="center"
+        android:text=" * Focus on Quality
+     (availability only quality products)\n
+* Save your money and time \n
+* Caring yours health.\n
+* Customer satisfaction\n
+* Digital payment, save your valuable time.\n
+* Order from anywhere And get anywhere.\n
+* Instant order And pre-order, get fast delivery.\n
+* Pay by- online And Cash on delivery\n
+* Best price guarantee.\n
+* Make in India.\n"
+        android:textAlignment="viewStart"
+        android:textSize="16sp" />
+</RelativeLayout>
